@@ -1,0 +1,9 @@
+{
+    "navbar": {
+        "home": "Início",
+        "about": "Sobre",
+        "projects": "Projetos",
+        "blog": "Blog",
+        "contact": "Contato"
+    }
+}
