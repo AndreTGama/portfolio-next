@@ -3,11 +3,11 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 html {
-  background: white;
+  background: rgb(230, 230, 230);
 }
 
 html.dark {
-  background: black;
+  background: rgb(34, 34, 34);
 }
 
 body {
