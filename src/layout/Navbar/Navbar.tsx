@@ -20,10 +20,14 @@ export default function Navbar() {
         </div>
       </div>
       <hr />
-      <nav>
-        <NavLinks />
-        <ThemeToggle />
-        <LanguageSwitcher />
+      <nav className="pt-5">
+        <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+          <NavLinks />
+          <div className="flex flex-wrap items-center gap-3">
+            <ThemeToggle />
+            <LanguageSwitcher />
+          </div>
+        </div>
       </nav>
     </header>
   );
