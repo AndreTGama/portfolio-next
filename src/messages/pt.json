@@ -5,5 +5,8 @@
         "projects": "Projetos",
         "blog": "Blog",
         "contact": "Contato"
+    },
+    "Home": {
+        "title": "Engenheiro de Software"
     }
 }

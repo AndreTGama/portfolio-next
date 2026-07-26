@@ -5,5 +5,8 @@
         "projects": "Projects",
         "blog": "Blog",
         "contact": "Contact"
+    },
+    "Home": {
+        "title": "Software Engineer"
     }
 }
