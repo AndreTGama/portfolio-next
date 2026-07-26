@@ -1,4 +1,9 @@
-export const LANGUAGES = ['en', 'pt'] as const;
+export const OBJECT_LANGUAGES = [
+  { code: 'en', flag: '🇺🇸' },
+  { code: 'pt', flag: '🇧🇷' },
+] as const;
+
+export const LANGUAGES = OBJECT_LANGUAGES.map((lang) => lang.code);
 
 export type Language = (typeof LANGUAGES)[number];
 

@@ -1,11 +1,15 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #111111;
+@custom-variant dark (&:where(.dark, .dark *));
+
+html {
+  background: white;
+}
+
+html.dark {
+  background: black;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
+  background: inherit;
 }
