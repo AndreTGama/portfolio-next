@@ -26,8 +26,8 @@ export default function LanguageSwitcher() {
           onClick={() => changeLanguage(lang.code)}
           className={`rounded-full px-3 py-1 text-xs transition-colors ${
             locale === lang.code
-              ? "bg-slate-200/10 font-semibold text-white"
-              : "text-slate-400 hover:text-white"
+              ? "bg-slate-200/20 font-semibold text-slate-900 dark:bg-slate-700/80 dark:text-white"
+              : "text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-100"
           }`}
           type="button"
           aria-label={`Switch to ${lang.code.toUpperCase()}`}

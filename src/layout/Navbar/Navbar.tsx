@@ -5,25 +5,31 @@ import NavLinks from "./NavLinks";
 export default function Navbar() {
   return (
     <header className="">
-      <div className="grid grid-cols-4 gap-4 divide-x divide-white-200 items-end">
-        <div className="p-8 col-span-2 h-full">
-          <span className="text-8xl font-bold  ">André Gama</span>
+      <div className="grid grid-cols-1 gap-6 md:grid-cols-4 md:gap-4 md:divide-x md:divide-zinc-300">
+        <div className="col-span-1 p-1 text-center md:col-span-2 md:p-8 md:text-left">
+          <span className="text-5xl font-bold leading-none sm:text-6xl md:text-7xl lg:text-8xl">
+            André Gama
+          </span>
         </div>
-        <div className="p-8 col-span-1 h-full">
+        <div className="h-full col-span-1 p-1 text-center md:p-8 md:text-left">
           <p className="flex flex-col h-full justify-between">
             Software Engineer.
             <em>Since 2020.</em>
           </p>
         </div>
-        <div className="p-8 col-span-1 h-full">
-          <p className="flex flex-row items-end h-full">From Brazil</p>
+        <div className="h-full col-span-1 p-1 text-center md:p-8 md:text-left">
+          <p className="flex h-full flex-row items-center justify-center md:items-end md:justify-start">
+            From Brazil
+          </p>
         </div>
       </div>
-      <hr />
+      <hr className="mt-4 md:mt-0" />
       <nav className="pt-5">
-        <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
-          <NavLinks />
-          <div className="flex flex-wrap items-center gap-3">
+        <div className="flex flex-col items-center gap-4 md:flex-row md:items-center md:justify-between">
+          <div className="w-full md:w-auto">
+            <NavLinks />
+          </div>
+          <div className="flex flex-wrap items-center justify-center gap-3 md:justify-end">
             <ThemeToggle />
             <LanguageSwitcher />
           </div>
