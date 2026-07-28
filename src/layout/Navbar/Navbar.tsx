@@ -1,5 +1,5 @@
-﻿import LanguageSwitcher from "@/components/language-switcher";
-import { ThemeToggle } from "@/components/theme-toggle";
+﻿import LanguageSwitcher from "@/components/LanguageSwitcher";
+import { ThemeToggle } from "@/components/ThemeToggle";
 import NavLinks from "./NavLinks";
 
 export default function Navbar() {

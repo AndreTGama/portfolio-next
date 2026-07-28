@@ -4,7 +4,7 @@ import { getMessages, setRequestLocale } from 'next-intl/server';
 import { Geist, Geist_Mono } from 'next/font/google';
 import { notFound } from 'next/navigation';
 
-import { ThemeProvider } from "@/components/providers/theme-provider";
+import { ThemeProvider } from "@/components/providers/ThemeProvider";
 import { routing } from '@/i18n/routing';
 
 import '../globals.css';

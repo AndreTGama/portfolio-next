@@ -1,4 +1,4 @@
-import MenusLinks from "@/components/menus-links";
+import MenusLinks from "@/components/MenusLinks";
 
 export default function NavLinks() {
 
