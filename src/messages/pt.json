@@ -1,10 +1,15 @@
 {
-    "navbar": {
-        "home": "Início",
-        "about": "Sobre",
-        "projects": "Projetos",
-        "blog": "Blog",
-        "contact": "Contato"
+    "header": {
+        "jobTitle": "Engenheiro de Software",
+        "experience": "Atuando com desenvolvimento desde 2019",
+        "based": "Baseado em 🇧🇷",
+        "navbar": {
+            "home": "Início",
+            "about": "Sobre",
+            "projects": "Projetos",
+            "blog": "Blog",
+            "contact": "Contato"
+        }
     },
     "Home": {
         "title": "Engenheiro de Software"

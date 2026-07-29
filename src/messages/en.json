@@ -1,10 +1,15 @@
 {
-    "navbar": {
-        "home": "Home",
-        "about": "About",
-        "projects": "Projects",
-        "blog": "Blog",
-        "contact": "Contact"
+    "header": {
+        "jobTitle": "Software Engineer",
+        "experience": "Building software since 2019",
+        "based": "Based in 🇧🇷",
+        "navbar": {
+            "home": "Home",
+            "about": "About",
+            "projects": "Projects",
+            "blog": "Blog",
+            "contact": "Contact"
+        }
     },
     "Home": {
         "title": "Software Engineer"

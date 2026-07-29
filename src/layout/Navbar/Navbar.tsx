@@ -1,8 +1,11 @@
-﻿import LanguageSwitcher from "@/components/LanguageSwitcher";
+﻿import { useTranslations } from "next-intl";
+
+import LanguageSwitcher from "@/components/LanguageSwitcher";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import NavLinks from "./NavLinks";
 
 export default function Navbar() {
+  const t = useTranslations("header");
   return (
     <header className="">
       <div className="grid grid-cols-1 gap-6 md:grid-cols-4 md:gap-4 md:divide-x md:divide-zinc-300">
@@ -13,13 +16,13 @@ export default function Navbar() {
         </div>
         <div className="h-full col-span-1 p-1 text-center md:p-8 md:text-left">
           <p className="flex flex-col h-full justify-between">
-            Software Engineer.
-            <em>Since 2020.</em>
+            {t("jobTitle")}
+            <em>{t("experience")}</em>
           </p>
         </div>
         <div className="h-full col-span-1 p-1 text-center md:p-8 md:text-left">
           <p className="flex h-full flex-row items-center justify-center md:items-end md:justify-start">
-            From Brazil
+            {t("based")}
           </p>
         </div>
       </div>
