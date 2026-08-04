@@ -16,7 +16,9 @@
         "hero": {
             "h1": "Building scalable solutions for real problems.",
             "textOne": "Based in Brazil, I build scalable web applications using PHP, Laravel, AWS and modern web technologies.",
-            "textTwo": "Passionate about clean architecture, scalable systems and continuous learning, I strive to create software that is reliable, maintainable and built to last."
+            "textTwo": "Passionate about clean architecture, scalable systems and continuous learning, I strive to create software that is reliable, maintainable and built to last.",
+            "viewProjects": "View Projects",
+            "downloadResume": "Download Resume"
         }
     }
 }

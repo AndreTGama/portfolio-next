@@ -2,6 +2,7 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 
 import image from "@/assets/img/conference-speaker.jpg";
+import HeroActions from "./HeroActions";
 
 export default function Hero() {
   const t = useTranslations("home");
@@ -31,6 +32,7 @@ export default function Hero() {
           />
         </div>
       </div>
+      <HeroActions />
     </section>
   );
 }
