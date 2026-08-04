@@ -11,7 +11,12 @@
             "contact": "Contato"
         }
     },
-    "Home": {
-        "title": "Engenheiro de Software"
+    "home": {
+        "title": "Engenheiro de Software",
+        "hero": {
+            "h1": "Construindo soluções escaláveis para problemas reais.",
+            "textOne": "Baseado no Brasil, construo aplicações web escaláveis usando PHP, Laravel, AWS e tecnologias web modernas.",
+            "textTwo": "Apaixonado por arquitetura limpa, sistemas escaláveis e aprendizado contínuo, busco criar software confiável, sustentável e construído para durar."
+        }
     }
 }
